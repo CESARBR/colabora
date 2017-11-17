@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="160px" viewBox="0 0 68 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="47.7593239 55.1698113 0.0681768343 55.1698113 0.0681768343 0.102666229 47.7593239 0.102666229"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-261.000000, -199.000000)">
+            <g id="Group-26">
+                <g transform="translate(-320.000000, -66.000000)" id="HOME">
+                    <g transform="translate(305.000000, 0.000000)">
+                        <g id="Page-1-Copy-4" transform="translate(310.000000, 345.000000) rotate(-180.000000) translate(-310.000000, -345.000000) translate(276.000000, 265.000000)">
+                            <g id="Group-3" transform="translate(19.886792, 103.924528)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M0.228299006,52.4400017 L22.1546997,1.29429839 C22.836732,-0.296126702 25.1031946,-0.293934525 25.7819214,1.29722129 L47.6007101,52.44329 C48.1519919,53.7363096 47.1985424,55.169994 45.7863647,55.169994 L2.04154256,55.169994 C0.627895722,55.169994 -0.326288348,53.7333867 0.228299006,52.4400017" id="Fill-1" fill="#F4DB8E" mask="url(#mask-2)"></path>
+                            </g>
+                            <g id="Group-6" fill="#F4DB8E">
+                                <path d="M0.159249289,52.877371 L21.9593486,1.47734769 C22.6374635,-0.120985725 24.8912737,-0.118782646 25.5661021,1.48028513 L47.2592075,52.8806756 C47.8076882,54.1801248 46.8593497,55.6209381 45.4556481,55.6209381 L1.96171315,55.6209381 C0.556550885,55.6209381 -0.392152743,54.1771873 0.159249289,52.877371" id="Fill-4"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

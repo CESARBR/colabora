@@ -1,0 +1,139 @@
+.schedule-elements-1 {
+  width: vwCalc(433);
+  height: vwCalc(437);
+  position: absolute;
+  right: vwCalc(-59);
+  bottom: vwCalc(429);
+}
+.schedule-elements-2 {
+  width: vwCalc(348);
+  height: vwCalc(350);
+  position: absolute;
+  left: vwCalc(0);
+  bottom: vwCalc(-73);
+}
+.face-3 {
+  background: url(../images/face-3.png) no-repeat 0 0 / auto 100%;
+  width: vwCalc(418);
+  height: vwCalc(518);
+  position: absolute;
+  right: vwCalc(158);
+  top: vwCalc(314);
+  z-index: 2;
+}
+
+.section-wrapper__section--schedule {
+  h2 {
+    font-size: vwCalc(72);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $schedule-color-section;
+    position: absolute;
+    left: vwCalc(589);
+    top: vwCalc(42);
+    margin: 0;
+  }
+  .hr-box {
+    width: vwCalc(1265);
+    height: vwCalc(4);
+    position: absolute;
+    left: vwCalc(0);
+    top: vwCalc(136);
+    background: $schedule-color-section;
+  }
+  nav {
+    position: absolute;
+    right: vwCalc(288);
+    top: vwCalc(160);
+    a {
+      font-size: vwCalc(24);
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $schedule-color-section-alt;
+      text-decoration: none;
+      margin: 0 vwCalc(12);
+      &:first-child {
+        margin: 0 vwCalc(12) 0 0;
+      }
+      &:last-child {
+        margin: 0 0 0 vwCalc(12);
+      }
+    }
+  }
+
+  .day {
+    position: absolute;
+    overflow: auto;
+    &.day--30{
+      width: vwCalc(1449);
+      right: vwCalc(0);
+      top: vwCalc(367);
+      h3 {
+        color: $schedule-color-day-30;
+        margin: 0 0 vwCalc(40) vwCalc(34);
+      }
+      li {
+        background: $schedule-color-day-30;
+      }
+    }
+    &.day--01{
+      width: vwCalc(1449);
+      right: vwCalc(0);
+      top: vwCalc(872);
+      h3 {
+        color: $schedule-color-day-01;
+        margin: 0 0 vwCalc(40) vwCalc(400);
+      }
+      li {
+        background: $schedule-color-day-01;
+      }
+    }
+    &.day--02{
+      width: vwCalc(1449);
+      right: vwCalc(0);
+      top: vwCalc(1440);
+      h3 {
+        color: $schedule-color-day-02;
+        margin: 0 0 vwCalc(40) vwCalc(860);
+      }
+      li {
+        background: $schedule-color-day-02;
+      }
+    }
+    h3 {
+      font-size: vwCalc(48);
+      font-weight: 400;
+      text-transform: uppercase;
+      margin: 0 0 vwCalc(40);
+    }
+    ul {
+      width: 100%;
+      overflow: auto;
+      display: flex;
+      flex-flow: row;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li {
+        width: vwCalc(400);
+        flex: 0 0 vwCalc(400);
+        box-sizing: border-box;
+        padding: vwCalc(25);
+        margin: 0 vwCalc(10) 0 0;
+        h4 {
+          font-size: vwCalc(24);
+          font-weight: 700;
+          margin: 0 0 vwCalc(35);
+          color: $schedule-bg;
+        }
+        p {
+          font-size: vwCalc(24);
+          font-weight: 400;
+          font-style: italic;
+          margin: 0;
+          color: $schedule-bg;
+        }
+      }
+    }
+  }
+}

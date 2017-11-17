@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="462px" height="376px" viewBox="0 0 462 376" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ornamento</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1141.000000, -83.000000)" stroke-width="18" stroke="#29459C">
+            <g id="Group-26">
+                <g transform="translate(-320.000000, 0.000000)" id="HOME">
+                    <g transform="translate(305.000000, 0.000000)">
+                        <g id="ornamento" transform="translate(1165.000000, 92.000000)">
+                            <path d="M0,54 C0,24.1764272 24.8482219,0 55.5,0 C86.1517781,0 111,24.1764272 111,54" id="Stroke-1"></path>
+                            <path d="M222,54 C222,83.8235728 197.151943,108 166.499632,108 C135.848057,108 111,83.8235728 111,54" id="Stroke-3"></path>
+                            <path d="M222,54 C222,24.1764272 246.848222,0 277.5,0 C308.151778,0 333,24.1764272 333,54" id="Stroke-5"></path>
+                            <path d="M444,54 C444,83.8235728 419.151943,108 388.499632,108 C357.848057,108 333,83.8235728 333,54" id="Stroke-7"></path>
+                            <path d="M0,304 C0,274.176427 24.8482219,250 55.5,250 C86.1517781,250 111,274.176427 111,304" id="Stroke-9"></path>
+                            <path d="M222,304 C222,333.823573 197.151943,358 166.499632,358 C135.848057,358 111,333.823573 111,304" id="Stroke-11"></path>
+                            <path d="M222,304 C222,274.176427 246.848222,250 277.5,250 C308.151778,250 333,274.176427 333,304" id="Stroke-13"></path>
+                            <path d="M444,304 C444,333.823573 419.151943,358 388.499632,358 C357.848057,358 333,333.823573 333,304" id="Stroke-15"></path>
+                            <path d="M0,179 C0,149.176427 24.8482219,125 55.5,125 C86.1517781,125 111,149.176427 111,179" id="Stroke-17"></path>
+                            <path d="M222,179 C222,208.823573 197.151943,233 166.499632,233 C135.848057,233 111,208.823573 111,179" id="Stroke-19"></path>
+                            <path d="M222,179 C222,149.176427 246.848222,125 277.5,125 C308.151778,125 333,149.176427 333,179" id="Stroke-21"></path>
+                            <path d="M444,179 C444,208.823573 419.151943,233 388.499632,233 C357.848057,233 333,208.823573 333,179" id="Stroke-23"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

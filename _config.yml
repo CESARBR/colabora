@@ -9,8 +9,8 @@
 title: Colabora! - Design, Pessoas e Experiências
 description: > # this means to ignore newlines until "baseurl:"
   Colabora! e ganha o mundo, sendo aberto como parte dos eventos que acontecerão no Bairro do Recife como parte do Rec’n’Play.  Num diálogo direto com a sociedade, o evento trata da cidade, das lutas sociais, aplicações eletrônicas para produção de novos significados e outras discussões de forma crítica, ativa e, esperamos, divertida.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://colabora.design" # the base hostname & protocol for your site
+baseurl: "/colabora" # the subpath of your site, e.g. /blog
+url: "https://cesarbr.github.io" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown

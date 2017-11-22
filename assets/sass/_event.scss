@@ -19,7 +19,7 @@
   }
   nav {
     position: absolute;
-    right: vwCalc(141);
+    right: vwCalc(101);
     top: vwCalc(181);
     a {
       font-size: vwCalc(24);
@@ -47,7 +47,7 @@
     background: #fff;
     p {
       font-size: vwCalc(24);
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.05;
       color: $event-color-section-alt;
       margin: 0;
@@ -67,7 +67,6 @@
       font-weight: 400;
       line-height: 1.1;
       color: $event-color-section;
-      font-style: italic;
       margin: 0;
     }
   }

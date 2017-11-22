@@ -27,7 +27,7 @@ svg {
     }
     &.section-wrapper__section--speakers {
       background: $speakers-bg;
-      // min-height: vwCalc(2048);
+      min-height: vwCalc(3772);
       z-index: 3;
     }
     &.section-wrapper__section--schedule {

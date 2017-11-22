@@ -1,7 +1,7 @@
 <div class="speakers-elements-1 animateme" data-when="view" data-from="0.3" data-to="0" data-translatex="-1200" data-rotatez="-180">
     {% include assets/speakers-elements-1.svg %}
 </div>
-<div class="speakers-elements-2 animateme" data-when="view" data-from="0.5" data-to="0.1" data-translatex="1200">
+<div class="speakers-elements-2 animateme" data-when="view" data-from="0.6" data-to="0.3" data-translatex="1200">
     {% include assets/speakers-elements-2.svg %}
 </div>
 <div class="speakers-elements-3 animateme" data-when="view" data-from="0.85" data-to="0.5" data-translatex="-1200" data-tilt>
@@ -18,4 +18,30 @@
     <a href="#programacao">Programação</a>
     <a href="#contato">Contato</a>
 </nav>
-<div class="soon">Em breve ;)</div>
+
+<ul class="speakers-list animateme" data-when="view" data-from="0.3" data-to="0" data-scale="0" data-translatey="500">
+    {% for speaker in site.data.speakers %}
+    <li data-tilt class="speaker speaker--{{ speaker.id }} scrollme animateme" >
+        {% if speaker.treeLeft %}
+        <div class="speaker-tree-left animateme" data-when="view" data-from="0.3" data-to="0" data-scale="0" data-translatex="300">
+            {% include assets/speaker-tree-left.svg %}
+        </div>
+        {% endif %}
+        {% if speaker.treeRight %}
+        <div class="speaker-tree-right animateme" data-when="view" data-from="0.3" data-to="0" data-scale="0" data-translatex="-300">
+            {% include assets/speaker-tree-right.svg %}
+        </div>
+        {% endif %}
+        {% if speaker.eyelashes %}
+        <div class="speaker-eyelashes animateme" data-when="view" data-from="0.3" data-to="0" data-scale="0" data-translatey="300">
+            {% include assets/speaker-eyelashes.svg %}
+        </div>
+        {% endif %}
+        <figure class="speaker-avatar" style="background-image: url({{ site.baseurl | append: '/assets/images/avatar/' | append: speaker.thumbnailUrl }})"></figure>
+        <h3 class="speaker-name">{{ speaker.name }}</h3>
+        {% if speaker.title != "" %}
+        <span class="speaker-title">{{ speaker.title }}</span>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

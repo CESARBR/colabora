@@ -18,11 +18,10 @@ svg {
   z-index: 1;
 
   .section-wrapper__section {
-    min-height: 100vh;
+    min-height: vwCalc(1024);
     position: relative;
     &.section-wrapper__section--event {
       background: $event-bg;
-      min-height: vwCalc(1024);
       z-index: 4;
     }
     &.section-wrapper__section--speakers {
@@ -37,7 +36,6 @@ svg {
     }
     &.section-wrapper__section--contact {
       background: $contact-bg;
-      min-height: vwCalc(1024);
     }
   }
 }

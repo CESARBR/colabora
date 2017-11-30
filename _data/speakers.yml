@@ -205,3 +205,12 @@
   treeLeft: true
   treeRight: true
   eyelashes: true
+-
+  id: 24
+  name: "William Grillo"
+  title: ""
+  bio: ""
+  thumbnailUrl: grillo.png
+  treeLeft: false
+  treeRight: true
+  eyelashes: true

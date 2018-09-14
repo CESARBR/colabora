@@ -21,7 +21,7 @@ kramdown:
 # Sass settings
 sass:
   add_charset: true
-  sass_dir: assets/sass
+  sass_dir: /2017/assets/sass
   style: :compressed
 
 # Build settings

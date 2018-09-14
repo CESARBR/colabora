@@ -109,7 +109,47 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(../images/cover.png) no-repeat 50% 50% / contain;
+}
+
+.cover__content {
+    width: 100%;
+    height: 75%;
+    background: url(../images/cover.png) no-repeat 50% 10% / contain;
+}
+
+.cover__navigation {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.cover__navigation__item {
+    margin: 0 25px 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-indent: -999em;
+    background: no-repeat 0 0 / contain;
+}
+
+.cover__navigation__item--instagram {
+    width: 197px;
+    height: 41px;
+    background-image: url(../images/instagram.svg); 
+}
+
+.cover__navigation__item--cesar {
+    width: 76px;
+    height: 45px;
+    background-image: url(../images/cesar.svg); 
+}
+
+.cover__navigation__item--cesar-school {
+    width: 76px;
+    height: 68px;
+    background-image: url(../images/cesar-school.svg); 
 }
 
 /* ==========================================================================

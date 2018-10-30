@@ -501,7 +501,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Oswald', sans-serif;
-		font-weight: 300;
+		/*font-weight: 300;*/
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
@@ -2287,9 +2287,9 @@ input, select, textarea {
 		position: relative;
 		top: 5em;
 		left: -30%;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Noto Sans', sans-serif;
 		font-size: 0.75em;
-		line-height: 1.2em;
+		line-height: 1.4em;
 		
 	}
 
@@ -2315,9 +2315,10 @@ input, select, textarea {
 		background-position: top center;
 	}
 	#agenda p {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 0.7em;
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 0.75em;
 		margin: 0;
+		line-height: 1.5em;
 	}
 	
 	#agenda .box {
@@ -2353,6 +2354,7 @@ input, select, textarea {
 	}
 	.school {
 		width: 40%;
+		padding-left: 1em;
 	}
 	
 /* Contato */

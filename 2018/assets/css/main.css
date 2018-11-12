@@ -1,3 +1,4 @@
+@import url("font-awesome.min.css");
 /*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -1101,6 +1102,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+		
+			#header {
+				display: none;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -1174,8 +1179,7 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1em;
-		margin-top: 1.5em;
-		/*border: 1px solid #000;*/
+		/*margin-top: 1.5em;*/
 	}
 
 		header p {
@@ -1187,6 +1191,10 @@ input, select, textarea {
 		#intro p {
 			line-height: 1.5em;
 			text-transform: uppercase;
+			margin-top: 40px;
+		}
+		#intro footer {
+				display: none;
 		}
 		
 		header h1 {
@@ -1195,6 +1203,25 @@ input, select, textarea {
 		
 		header nav {
 			margin-right: 7em;
+		}
+		
+		.inscrevase a {
+			text-decoration: none;
+			background: #F1CF73;
+			color: #4F2E6B !important;
+			border-radius: 5px;
+		}
+		.inscrevase a:hover {
+			color: #fff;
+			background: #D86323;
+		}
+		.inscrevasem a {
+			display: none;
+			text-decoration: none;
+			background: #F1CF73;
+			color: #4F2E6B !important;
+			border-radius: 5px;
+			padding: 10px 25px;
 		}
 		
 		.datehome {
@@ -1838,6 +1865,13 @@ input, select, textarea {
 				.gallery article {
 					width: 100%;
 				}
+			.inscrevasem a {
+				display: inline;
+			}
+			
+			#intro footer {
+				display: inline;
+			}
 
 		}
 
@@ -1849,8 +1883,8 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0);
-		height: 4em;
+		background: rgba(0, 0, 0, 0.2);
+		height: 5em;
 		line-height: 4em;
 		/*box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);*/
 	}
@@ -1858,7 +1892,7 @@ input, select, textarea {
 		#header h1 {
 			position: absolute;
 			left: 1em;
-			top: 0;
+			top: 0.7em;
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
@@ -1874,10 +1908,11 @@ input, select, textarea {
 			top: 0;
 			height: 4em;
 			line-height: 4em;
+
 		}
 
 			#header nav ul {
-				margin: 0;
+				margin: 7px 0 0 0;
 			}
 
 				#header nav ul li {
@@ -2091,6 +2126,7 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
+					margin-top: 20px;
 					background-image: url("images/dark-arrow.svg");
 				}
 
@@ -2324,6 +2360,9 @@ input, select, textarea {
 	
 	#datas {
 		margin: 6em 0;
+	}
+	#datas h2 {
+		padding-top: 1em;
 	}
 	
 	#agenda table {

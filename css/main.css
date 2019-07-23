@@ -1,0 +1,54 @@
+body {
+  background: url(../img/bg-right.png) no-repeat 100% 0 / auto 100%, url(../img/bg-left.png) no-repeat 0 0 / auto 100%, #eaedef;
+  height: 100vh;
+  width: 100vw;
+}
+
+.brand {
+  background: url(../img/colabora-2019.svg) no-repeat 0 0 / contain;
+  height: 114px;
+  position: absolute;
+  right: 20px;
+  margin: 0;
+  width: 113px;
+  text-indent: -999em;
+  top: 20px;
+}
+
+.save-the-date {
+  background: url(../img/save-the-date.svg) no-repeat 0 0 / contain;
+  height: 161px;
+  left: 50%;
+  position: absolute;
+  margin: 0;
+  width: 325px;
+  text-indent: -999em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cesar {
+  background: url(../img/cesar.svg) no-repeat 0 0 / contain;
+  bottom: 32px;
+  display: block;
+  height: 25px;
+  position: absolute;
+  right: 80px;
+  margin: 0;
+  width: 42px;
+  text-decoration: none;
+  text-indent: -999em;
+}
+
+.cesar-school {
+  background: url(../img/cesar-school.svg) no-repeat 0 0 / contain;
+  bottom: 20px;
+  display: block;
+  height: 37px;
+  position: absolute;
+  right: 20px;
+  margin: 0;
+  width: 42px;
+  text-decoration: none;
+  text-indent: -999em;
+}

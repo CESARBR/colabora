@@ -1,5 +1,27 @@
+@import url("//hello.myfonts.net/count/39d2a2");
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../fonts/39D2A2_0_0.eot');
+  src: url('../fonts/39D2A2_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/39D2A2_0_0.woff2') format('woff2'), url('../fonts/39D2A2_0_0.woff') format('woff'), url('../fonts/39D2A2_0_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../fonts/39D2A2_1_0.eot');
+  src: url('../fonts/39D2A2_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/39D2A2_1_0.woff2') format('woff2'), url('../fonts/39D2A2_1_0.woff') format('woff'), url('../fonts/39D2A2_1_0.ttf') format('truetype');
+}
+
+:root {
+  --blue: #032065;
+  --blue-light: #345ab38f;
+  --pink: #e62c70;
+  --white: #fff;
+  --gray: #eaedef;
+  --gray-alpha: #eaedefde;
+}
+
 body {
-  background: url(../img/bg-right.png) no-repeat 100% 0 / auto 100%, url(../img/bg-left.png) no-repeat 0 0 / auto 100%, #eaedef;
+  background: url(../img/bg-right.png) no-repeat 100% 0 / auto 100%, url(../img/bg-left.png) no-repeat 0 0 / auto 100%, var(--gray);
+  font-family: 'Gilroy-Light', sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -27,6 +49,49 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.call-4-papers {
+  left: 50%;
+  position: absolute;
+  width: 325px;
+  text-align: center;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.call-4-papers__link {
+  background: var(--blue);
+  border-radius: 50px;
+  box-shadow: 3px 3px 0 var(--white);
+  color: var(--white);
+  display: block;
+  font-family: 'Gilroy-ExtraBold', sans-serif;
+  font-size: 18px;
+  margin: 0 0 10px;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.call-4-papers__link:hover {
+  background-color: var(--pink);
+}
+
+.call-4-papers__subtitle {
+  background: var(--gray-alpha);
+  border-radius: 50px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px 20px;
+}
+
+.call-4-papers__subtitle svg {
+  color: var(--pink);
+  height: 12px;
+  vertical-align: middle;
+  width: 12px;
+}
+
 .social-nav {
   bottom: 20px;
   left: 50%;
@@ -37,7 +102,7 @@ body {
 }
 
 .social-nav a {
-  color: #032065;
+  color: var(--blue);
   display: inline-block;
   margin: 0 5px;
   text-decoration: none;
@@ -45,7 +110,7 @@ body {
 }
 
 .social-nav a:hover {
-  color: #e62c70;
+  color: var(--pink);
 }
 
 .social-nav svg {

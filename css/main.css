@@ -27,6 +27,32 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.social-nav {
+  bottom: 20px;
+  left: 50%;
+  position: absolute;
+  width: 30vw;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.social-nav a {
+  color: #032065;
+  display: inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.social-nav a:hover {
+  color: #e62c70;
+}
+
+.social-nav svg {
+  height: 32px;
+  width: 32px;
+}
+
 .cesar {
   background: url(../img/cesar.svg) no-repeat 0 0 / contain;
   bottom: 32px;
